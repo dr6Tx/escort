@@ -1,7 +1,80 @@
 print("hawk hub legends were here")
+_Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
+
+local Gargamel = {
+	"hawkhubneverdies",
+	"legendsneverdie",
+	"hawkhublegendsneverdie",
+	"hacininsalgami"
+}
+
+assert(getgenv().hookfunction,"Your exploit does not support that function - Hanki")
+
+getgenv().appendfile = function() return nil end
+wait()
+getgenv().printconsole = function() return nil end
+wait()
+getgenv().saveinstance = function() return nil end
+wait()
+getgenv().toclipboard = function() return nil end
+wait()
+getgenv().set_clipboard = function() return nil end
+wait()
+getgenv().Clipboard = function() return nil end
+wait()
+getgenv().messagebox = function() return nil end
+wait()
+getgenv().rconsoleinputasync = function() return nil end
+wait()
+getgenv().consoleinput = function() return nil end
+wait()
+getgenv().rconsoledestroy = function() return nil end
+wait()
+getgenv().consoledestroy = function() return nil end
+wait()
+getgenv().rconsolecreate = function() return nil end
+wait()
+getgenv().consolecreate = function() return nil end
+wait()
+getgenv().consolesettitle = function() return nil end
+wait()
+getgenv().rconsolesettitle = function() return nil end
+wait()
+getgenv().consoleprint = function() return nil end
+wait()
+getgenv().consoleclear = function() return nil end
+wait()
+getgenv().getconstant = function() return nil end
+wait()
+getgenv().dofile = function() return nil end
+wait()
+getgenv().rconsoleinfo = function() return nil end
+wait()
+getgenv().setrbxclipboard = function() return nil end	
+
+
+for i, v in pairs(game.CoreGui:GetChildren()) do
+	if v.Name == "GargamelosSanderos" then
+		v:Destroy()
+	end
+end
+for i, v in pairs(game.CoreGui:GetChildren()) do
+	if v.Name == "HawkMini" or v.Name == "HawkHUBKeySystem" or v.Name == "Hawk" or v.Name == "GameNotification" or v.Name == "HawkNotification" or v.Name == "HawkKeySystem" or v.Name == "HawkLoader" or v.Name == "Intro" or v.Name == "Load" or v.Name == "amk" then
+		v:Destroy()
+	end
+end
+if game.CoreGui:FindFirstChild("HawkHUBKeySystem") then
+	game.CoreGui:FindFirstChild("HawkHUBKeySystem"):Destroy()
+end
+if game.CoreGui:FindFirstChild("HawkHUB") then
+	game.CoreGui:FindFirstChild("HawkHUB"):Destroy()
+end
+
+function loadscript() 
+	    print("hawk hub legends were here")
 warn("Hanki was here")
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
-_Protected_By_Hawk=".gg/3nfgqgJCqZ"
+
 assert(getgenv().hookfunction,"Your exploit does not support that function - Hanki")
 
 getgenv().appendfile = function() return nil end
@@ -7588,6 +7661,770 @@ else
 		Intro()
 
 		loadscript()	
+	end
+end
+
+if Wasted then
+	warn("Hanki is allowing you to execute multiple :) <3")
+	return;
+else
+	pcall(function()
+		getgenv().Wasted = true
+
+		getgenv().clonefunction = function() return nil end
+		local functions = {
+			rconsoleprint,
+			rconsoleerr,
+			rconsoleinfo,
+			rconsoleinput,
+			rconsolename,
+			rconsoleprint,
+			rconsoletitle,
+			rconsolewarn,
+			makefolder,
+			print,
+			setclipboard,
+			rconsoleerr,
+			rconsolewarn,
+			warn,
+			error
+		}
+
+
+		for i, v in next, functions do
+			local old
+			old = hookfunction(v,newcclosure(function(...)
+				local args = {...}
+				for i, v in next, args do
+					if tostring(i):find("raw") or tostring(v):find("raw") then
+						while true do
+						end
+					end
+				end
+				return old(...)
+			end))
+		end
+
+
+
+		if _G.ID then
+			while true do
+			end
+		end
+		setmetatable(
+			_G,
+			{
+				__newindex = function(t, i, v)
+					if tostring(i) == "ID" then
+						while true do
+						end
+					end
+				end
+			}
+		)
+	end)
+	getgenv().print = function() return nil end
+	wait()
+	getgenv().warn = function() return nil end
+	wait()
+	getgenv().error = function() return nil end
+	wait()
+	getrenv().print = function() return nil end
+	wait()
+	getrenv().warn = function() return nil end
+	wait()
+	getrenv().error = function() return nil end
+	wait()
+	getgenv().appendfile = function() return nil end
+	wait()
+	getgenv().printconsole = function() return nil end
+	wait()
+	getgenv().saveinstance = function() return nil end
+	wait()
+	getgenv().toclipboard = function() return nil end
+	wait()
+	getgenv().set_clipboard = function() return nil end
+	wait()
+	getgenv().Clipboard = function() return nil end
+	wait()
+	getgenv().messagebox = function() return nil end
+	wait()
+	getgenv().rconsoleinputasync = function() return nil end
+	wait()
+	getgenv().consoleinput = function() return nil end
+	wait()
+	getgenv().rconsoledestroy = function() return nil end
+	wait()
+	getgenv().consoledestroy = function() return nil end
+	wait()
+	getgenv().rconsolecreate = function() return nil end
+	wait()
+	getgenv().consolecreate = function() return nil end
+	wait()
+	getgenv().consolesettitle = function() return nil end
+	wait()
+	getgenv().rconsolesettitle = function() return nil end
+	wait()
+	getgenv().consoleprint = function() return nil end
+	wait()
+	getgenv().consoleclear = function() return nil end
+	wait()
+	getgenv().getconstant = function() return nil end
+	wait()
+	getgenv().dofile = function() return nil end
+	wait()
+	getgenv().rconsoleinfo = function() return nil end
+	wait()
+	getgenv().setrbxclipboard = function() return nil end	
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHanki/basicrscripts/main/pastebintopastebinp.lua"))()
+end
+
+
+end
+
+if _Protected_By_Hawk then
+
+	if _Protected_By_Hawk == ".gg/3nfgqgJCqZ" then
+		for i, v in pairs(game.CoreGui:GetChildren()) do
+			if v.Name == "HawksAdmin" then
+				v:Destroy()
+			end
+		end
+			
+		local Mouse = game.Players.LocalPlayer:GetMouse()
+		local TweenService = game:GetService("TweenService")
+		local UserInputService = game:GetService("UserInputService")
+		local corner = Instance.new("UICorner")
+		local Circle = Instance.new("ImageLabel")
+		Circle.Name = "Circle"
+		Circle.BackgroundColor3 = Color3.new(0.533333, 0.533333, 0.533333)
+		Circle.BackgroundTransparency = 1
+		Circle.ImageColor3 = Color3.new(0.454902, 0.454902, 0.454902)
+		Circle.Image = "rbxassetid://266543268"
+		Circle.ImageTransparency = 0.8
+		Circle.BorderSizePixel = 0
+		corner.CornerRadius = UDim.new(1, 6)
+		corner.Name = "DropdownCorner"
+		corner.Parent = Circle
+
+		local function ripple(button, x, y)
+			spawn(
+				function()
+					button.ClipsDescendants = true
+					local circle = Circle:Clone()
+					circle.Parent = button
+					circle.ZIndex = 1000
+					local new_x = x - circle.AbsolutePosition.X
+					local new_y = y - circle.AbsolutePosition.Y
+					circle.Position = UDim2.new(0, new_x, 0, new_y)
+					local size = 0
+					if button.AbsoluteSize.X > button.AbsoluteSize.Y then
+						size = button.AbsoluteSize.X * 1.5
+					elseif button.AbsoluteSize.X < button.AbsoluteSize.Y then
+						size = button.AbsoluteSize.Y * 1.5
+					elseif button.AbsoluteSize.X == button.AbsoluteSize.Y then
+						size = button.AbsoluteSize.X * 1.5
+					end
+					circle:TweenSizeAndPosition(
+						UDim2.new(0, size, 0, size),
+						UDim2.new(0.5, -size / 2, 0.5, -size / 2),
+						"Out",
+						"Linear",
+						0.3
+					)
+					for i = 1, 10 do
+						circle.ImageTransparency = i / 10
+						wait()
+					end
+					circle:Destroy()
+				end
+			)
+		end
+
+		function Intro()
+			local ChristmasChecker = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Tables/Christmas.lua", true))()
+
+			for i, v in pairs(game.CoreGui:GetChildren()) do
+				if v.Name == "HawkMini" or v.Name == "Hawk" or v.Name == "GameNotification" or v.Name == "HawkNotification" or v.Name == "HawkKeySystem" or v.Name == "HawkLoader" or v.Name == "Intro" or v.Name == "Load" or v.Name == "amk" then
+					v:Destroy()
+				end
+			end
+			if game.CoreGui:FindFirstChild("HawkHUBKeySystem") then
+				game.CoreGui:FindFirstChild("HawkHUBKeySystem"):Destroy()
+			end
+
+			local HawkLoader = Instance.new("ScreenGui")
+			local Hawk_Logo = Instance.new("ImageLabel")
+			local UICorner = Instance.new("UICorner")
+			local Shadow = Instance.new("ImageLabel")
+			local UICorner_2 = Instance.new("UICorner")
+			local Shadow_2 = Instance.new("ImageLabel")
+			local UICorner_3 = Instance.new("UICorner")
+			local TweenService = game:GetService("TweenService")
+
+			HawkLoader.Name = "HawkLoader"
+			HawkLoader.Parent = game.CoreGui
+			HawkLoader.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+			HawkLoader.ResetOnSpawn = false
+
+			Hawk_Logo.Name = "Hawk_Logo"
+			Hawk_Logo.Parent = HawkLoader
+			Hawk_Logo.Active = true
+			Hawk_Logo.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+			Hawk_Logo.BackgroundTransparency = 1.000
+			Hawk_Logo.BorderColor3 = Color3.fromRGB(31, 31, 31)
+			Hawk_Logo.Position = UDim2.new(0.5, -50, 0.5, -50)
+			Hawk_Logo.Size = UDim2.new(0, 100, 0, 100)
+			Hawk_Logo.Visible = false
+			Hawk_Logo.ImageTransparency = 1.000
+
+			if ChristmasChecker == true then
+				Hawk_Logo.Image = "rbxassetid://13114802607"
+			elseif ChristmasChecker == false then
+				Hawk_Logo.Image = "rbxassetid://13114802607"
+			end
+
+			UICorner.CornerRadius = UDim.new(0, 5)
+			UICorner.Parent = Hawk_Logo
+
+			Shadow.Name = "Shadow"
+			Shadow.Parent = Hawk_Logo
+			Shadow.Active = true
+			Shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Shadow.BackgroundTransparency = 1.000
+			Shadow.Position = UDim2.new(0, -15, 0, -15)
+			Shadow.Size = UDim2.new(1, 30, 1, 30)
+			Shadow.ZIndex = 0
+			Shadow.Image = "rbxassetid://5028857084"
+			Shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+			Shadow.ImageTransparency = 1.000
+			Shadow.ScaleType = Enum.ScaleType.Slice
+			Shadow.SliceCenter = Rect.new(24, 24, 276, 276)
+
+			UICorner_2.CornerRadius = UDim.new(0, 4)
+			UICorner_2.Parent = Shadow
+
+			Shadow_2.Name = "Shadow"
+			Shadow_2.Parent = Hawk_Logo
+			Shadow_2.Active = true
+			Shadow_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Shadow_2.BackgroundTransparency = 1.000
+			Shadow_2.Position = UDim2.new(0, -15, 0, -15)
+			Shadow_2.Size = UDim2.new(1, 30, 1, 30)
+			Shadow_2.ZIndex = 0
+			Shadow_2.Image = "rbxassetid://5028857084"
+			Shadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+			Shadow_2.ImageTransparency = 1.000
+			Shadow_2.ScaleType = Enum.ScaleType.Slice
+			Shadow_2.SliceCenter = Rect.new(24, 24, 276, 276)
+
+			UICorner_3.CornerRadius = UDim.new(0, 4)
+			UICorner_3.Parent = Shadow_2
+
+			Hawk_Logo.Visible = true
+			TweenService:Create(
+				Hawk_Logo,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{BackgroundTransparency = 0}
+			):Play()
+			TweenService:Create(
+				Hawk_Logo,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{ImageTransparency = 0}
+			):Play()
+			TweenService:Create(
+				Shadow,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{ImageTransparency = 0}
+			):Play()
+			TweenService:Create(
+				Shadow_2,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{ImageTransparency = 0}
+			):Play()
+			wait(1)
+			TweenService:Create(
+				Hawk_Logo,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{BackgroundTransparency = 1}
+			):Play()
+			TweenService:Create(
+				Hawk_Logo,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{ImageTransparency = 1}
+			):Play()
+			TweenService:Create(
+				Shadow,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{ImageTransparency = 1}
+			):Play()
+			TweenService:Create(
+				Shadow_2,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{ImageTransparency = 1}
+			):Play()
+			TweenService:Create(
+				Hawk_Logo,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{ImageTransparency = 1}
+			):Play()
+			TweenService:Create(
+				Hawk_Logo,
+				TweenInfo.new(.2, Enum.EasingStyle.Linear),
+				{BackgroundTransparency = 1}
+			):Play()
+			for i, v in pairs(game.CoreGui:GetChildren()) do
+				if v.Name == "HawkMini" or v.Name == "Hawk" or v.Name == "GameNotification" or v.Name == "HawkNotification" or v.Name == "HawkKeySystem" or v.Name == "HawkLoader" or v.Name == "Intro" or v.Name == "Load" or v.Name == "amk" then
+					v:Destroy()
+				end
+			end
+		end
+
+		Intro()
+
+		function gargamelsj()
+			for i, v in pairs(game.CoreGui:GetChildren()) do
+				if v.Name == "GargamelosSanderos" then
+					v:Destroy()
+				end
+			end
+			for i, v in pairs(game.CoreGui:GetChildren()) do
+				if v.Name == "HawkMini" or v.Name == "HawkHUBKeySystem" or v.Name == "Hawk" or v.Name == "GameNotification" or v.Name == "HawkNotification" or v.Name == "HawkKeySystem" or v.Name == "HawkLoader" or v.Name == "Intro" or v.Name == "Load" or v.Name == "amk" then
+					v:Destroy()
+				end
+			end
+			if game.CoreGui:FindFirstChild("HawkHUBKeySystem") then
+				game.CoreGui:FindFirstChild("HawkHUBKeySystem"):Destroy()
+			end
+
+			local HawkHUBKeySystem = Instance.new("ScreenGui")
+			local Main = Instance.new("Frame")
+			local UICorner = Instance.new("UICorner")
+			local Shadow = Instance.new("Frame")
+			local Image = Instance.new("ImageLabel")
+			local Input = Instance.new("Frame")
+			local UIStroke = Instance.new("UIStroke")
+			local UICorner_2 = Instance.new("UICorner")
+			local InputBox = Instance.new("TextBox")
+			local KeyNote = Instance.new("TextLabel")
+			local ImageLabel = Instance.new("ImageLabel")
+			local TitleBar = Instance.new("Frame")
+			local UICorner_3 = Instance.new("UICorner")
+			local Close = Instance.new("TextButton")
+			local Title = Instance.new("TextLabel")
+			local Frame = Instance.new("Frame")
+			local Glow = Instance.new("ImageLabel")
+			local Subtitle = Instance.new("TextLabel")
+			local Title_2 = Instance.new("TextLabel")
+			local DirectJoinDiscord = Instance.new("TextButton")
+			local UICorner_4 = Instance.new("UICorner")
+			local UIStroke_2 = Instance.new("UIStroke")
+			local CopyDiscordLink = Instance.new("TextButton")
+			local UICorner_5 = Instance.new("UICorner")
+			local UIStroke_3 = Instance.new("UIStroke")
+			local NoteTitle = Instance.new("TextLabel")
+			local NoteMessage = Instance.new("TextLabel")
+
+			HawkHUBKeySystem.Name = "HawkHUBKeySystem"
+			HawkHUBKeySystem.Parent = game.CoreGui
+			HawkHUBKeySystem.ResetOnSpawn = false
+
+			Main.Name = "Main"
+			Main.Parent = HawkHUBKeySystem
+			Main.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			Main.BorderColor3 = Color3.fromRGB(25, 25, 25)
+			Main.BorderSizePixel = 0
+			Main.Position = UDim2.new(0.5, -202,0.5, -118)
+			Main.Size = UDim2.new(0, 404,0, 253)
+			Main.ZIndex = 1
+
+			UICorner.CornerRadius = UDim.new(0, 5)
+			UICorner.Parent = Main
+
+			local Background = Instance.new("ImageLabel")
+			Background.Name = "Background"
+			Background.Parent = Main
+			Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Background.BackgroundTransparency = 1.000
+			Background.Position = UDim2.new(0.0021164394, 0, 0.0164864883, 0)
+			Background.Size = UDim2.new(0, 404, 0, 248)
+			Background.Image = "rbxassetid://159991693"
+			Background.ImageTransparency = 0.8
+			Background.ScaleType = Enum.ScaleType.Tile
+			Background.SliceCenter = Rect.new(0, 256, 0, 256)
+			Background.TileSize = UDim2.new(0, 30, 0, 30)
+			Background.ZIndex = 1
+
+			Shadow.Name = "Shadow"
+			Shadow.Parent = Main
+			Shadow.AnchorPoint = Vector2.new(0.5, 0.5)
+			Shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Shadow.BackgroundTransparency = 1.000
+			Shadow.BorderSizePixel = 0
+			Shadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+			Shadow.Size = UDim2.new(1, 35, 1.09625673, 35)
+			Shadow.ZIndex = 1
+
+			Image.Name = "Image"
+			Image.Parent = Shadow
+			Image.AnchorPoint = Vector2.new(0.5, 0.5)
+			Image.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Image.BackgroundTransparency = 1.000
+			Image.BorderSizePixel = 0
+			Image.Position = UDim2.new(0.5, 0, 0.5, 0)
+			Image.Size = UDim2.new(1.60000002, 0, 1.29999995, 0)
+			Image.ZIndex = 1
+			Image.Image = "rbxassetid://5587865193"
+			Image.ImageColor3 = Color3.fromRGB(20, 20, 20)
+			Image.ImageTransparency = 0.500
+
+			Input.Name = "Input"
+			Input.Parent = Main
+			Input.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+			Input.BorderSizePixel = 0
+			Input.Position = UDim2.new(0.0475247838, 0, 0.621142149, 0)
+			Input.Size = UDim2.new(0, 174, 0, 34)
+			Input.ZIndex = 2
+
+			UIStroke.Parent = Input
+			UIStroke.Color = Color3.fromRGB(45, 45, 45)
+
+			UICorner_2.CornerRadius = UDim.new(0, 6)
+			UICorner_2.Parent = Input
+
+			InputBox.Name = "InputBox"
+			InputBox.Parent = Input
+			InputBox.AnchorPoint = Vector2.new(0.5, 0.5)
+			InputBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			InputBox.BackgroundTransparency = 1.000
+			InputBox.BorderSizePixel = 0
+			InputBox.Position = UDim2.new(0.517499566, 0, 0.5, 0)
+			InputBox.Size = UDim2.new(1, -15, 0, 14)
+			InputBox.ClearTextOnFocus = false
+			InputBox.Font = Enum.Font.GothamMedium
+			InputBox.PlaceholderText = "key"
+			InputBox.Text = ""
+			InputBox.TextColor3 = Color3.fromRGB(240, 240, 240)
+			InputBox.TextScaled = true
+			InputBox.TextSize = 14.000
+			InputBox.TextWrapped = true
+			InputBox.TextXAlignment = Enum.TextXAlignment.Left
+			InputBox.ZIndex = 2
+
+			KeyNote.Name = "KeyNote"
+			KeyNote.Parent = Main
+			KeyNote.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			KeyNote.BackgroundTransparency = 1.000
+			KeyNote.BorderSizePixel = 0
+			KeyNote.Position = UDim2.new(0.047524754, 0, 0.515874803, 0)
+			KeyNote.Size = UDim2.new(0, 200, 0, 13)
+			KeyNote.Font = Enum.Font.GothamMedium
+			KeyNote.Text = "Key"
+			KeyNote.TextColor3 = Color3.fromRGB(150, 150, 150)
+			KeyNote.TextScaled = true
+			KeyNote.TextSize = 14.000
+			KeyNote.TextWrapped = true
+			KeyNote.TextXAlignment = Enum.TextXAlignment.Left
+
+			ImageLabel.Parent = Main
+			ImageLabel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			ImageLabel.BackgroundTransparency = 1.000
+			ImageLabel.BorderColor3 = Color3.fromRGB(25, 25, 25)
+			ImageLabel.Position = UDim2.new(0.0190494657, 0, 0.215031937, 0)
+			ImageLabel.Size = UDim2.new(0, 54, 0, 51)
+			ImageLabel.Image = "rbxassetid://10179402650"
+
+			TitleBar.Name = "TitleBar"
+			TitleBar.Parent = Main
+			TitleBar.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+			TitleBar.BorderColor3 = Color3.fromRGB(31, 31, 31)
+			TitleBar.Size = UDim2.new(0, 404, 0, 31)
+			TitleBar.ZIndex = 2
+
+			UICorner_3.CornerRadius = UDim.new(0, 5)
+			UICorner_3.Parent = TitleBar
+
+			local Update = game:HttpGet("https://raw.githubusercontent.com/TheHanki/Hawk/main/LastUpdate")
+			local LastUpdate = Instance.new("TextLabel")
+			LastUpdate.Name = "LastUpdate"
+			LastUpdate.Parent = TitleBar
+			LastUpdate.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+			LastUpdate.BackgroundTransparency = 1.000
+			LastUpdate.BorderColor3 = Color3.fromRGB(31, 31, 31)
+			LastUpdate.Position = UDim2.new(0.336633652, 0, 0, 0)
+			LastUpdate.Size = UDim2.new(0, 130, 0, 45)
+			LastUpdate.ZIndex = 2
+			LastUpdate.Font = Enum.Font.GothamBlack
+			LastUpdate.Text = Update
+			LastUpdate.TextColor3 = Color3.fromRGB(195, 195, 195)
+			LastUpdate.TextSize = 14.000
+
+			Close.Name = "Close"
+			Close.Parent = TitleBar
+			Close.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+			Close.BackgroundTransparency = 1.000
+			Close.BorderColor3 = Color3.fromRGB(31, 31, 31)
+			Close.Position = UDim2.new(0.923267305, 0, 0, 0)
+			Close.Size = UDim2.new(0, 31, 0, 31)
+			Close.Font = Enum.Font.GothamBlack
+			Close.Text = "X"
+			Close.TextColor3 = Color3.fromRGB(195, 195, 195)
+			Close.TextSize = 15.000
+			Close.ZIndex = 2
+			Close.MouseButton1Down:Connect(function()
+				if game.CoreGui:FindFirstChild("HawkHUBKeySystem") then
+					game.CoreGui:FindFirstChild("HawkHUBKeySystem"):Destroy()
+				end
+			end)
+
+			Title.Name = "Title"
+			Title.Parent = TitleBar
+			Title.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			Title.BackgroundTransparency = 1.000
+			Title.BorderColor3 = Color3.fromRGB(25, 25, 25)
+			Title.BorderSizePixel = 0
+			Title.Position = UDim2.new(0.0213861745, 0, 0, 0)
+			Title.Size = UDim2.new(0, 200, 0, 31)
+			Title.Font = Enum.Font.GothamMedium
+			Title.Text = "Hawk HUB"
+			Title.TextColor3 = Color3.fromRGB(195, 195, 195)
+			Title.TextSize = 16.000
+			Title.TextWrapped = true
+			Title.TextXAlignment = Enum.TextXAlignment.Left
+			Title.ZIndex = 2
+
+			Frame.Parent = TitleBar
+			Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			Frame.BorderColor3 = Color3.fromRGB(40, 40, 40)
+			Frame.Position = UDim2.new(0.00247524772, 0, 1, 0)
+			Frame.Size = UDim2.new(0, 401, 0, 0)
+
+			Glow.Name = "Glow"
+			Glow.Parent = Main
+			Glow.Active = true
+			Glow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Glow.BackgroundTransparency = 1.000
+			Glow.Position = UDim2.new(0, -15, 0, -15)
+			Glow.Size = UDim2.new(1, 30, 1, 30)
+			Glow.ZIndex = 0
+			Glow.Image = "rbxassetid://5028857084"
+			Glow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+			Glow.ScaleType = Enum.ScaleType.Slice
+			Glow.SliceCenter = Rect.new(24, 24, 276, 276)
+
+			Subtitle.Name = "Subtitle"
+			Subtitle.Parent = Main
+			Subtitle.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			Subtitle.BackgroundTransparency = 1.000
+			Subtitle.BorderSizePixel = 0
+			Subtitle.Position = UDim2.new(0.184752509, 0, 0.332273513, 0)
+			Subtitle.Size = UDim2.new(0, 97, 0, 13)
+			Subtitle.Font = Enum.Font.GothamMedium
+			Subtitle.Text = "Key System"
+			Subtitle.TextColor3 = Color3.fromRGB(200, 200, 200)
+			Subtitle.TextScaled = true
+			Subtitle.TextSize = 14.000
+			Subtitle.TextWrapped = true
+			Subtitle.TextXAlignment = Enum.TextXAlignment.Left
+
+			Title_2.Name = "Title"
+			Title_2.Parent = Main
+			Title_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			Title_2.BackgroundTransparency = 1.000
+			Title_2.BorderSizePixel = 0
+			Title_2.Position = UDim2.new(0.184752524, 0, 0.24394013, 0)
+			Title_2.Size = UDim2.new(0, 90, 0, 16)
+			Title_2.Font = Enum.Font.GothamMedium
+			Title_2.Text = "Hawk HUB"
+			Title_2.TextColor3 = Color3.fromRGB(240, 240, 240)
+			Title_2.TextScaled = true
+			Title_2.TextSize = 14.000
+			Title_2.TextWrapped = true
+			Title_2.TextXAlignment = Enum.TextXAlignment.Left
+
+			DirectJoinDiscord.Name = "DirectJoinDiscord"
+			DirectJoinDiscord.Parent = Main
+			DirectJoinDiscord.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+			DirectJoinDiscord.BorderColor3 = Color3.fromRGB(43, 43, 43)
+			DirectJoinDiscord.Position = UDim2.new(0.601, 0,0.803, 0)
+			DirectJoinDiscord.Size = UDim2.new(0, 129, 0, 33)
+			DirectJoinDiscord.Font = Enum.Font.GothamBold
+			DirectJoinDiscord.Text = "Direct Join Discord"
+			DirectJoinDiscord.TextColor3 = Color3.fromRGB(255, 255, 255)
+			DirectJoinDiscord.TextSize = 12.000
+			DirectJoinDiscord.ZIndex = 2
+			DirectJoinDiscord.MouseButton1Down:Connect(function()
+				ripple(DirectJoinDiscord, Mouse.X, Mouse.Y)
+				DirectJoinDiscord.Text = "Clicked!"
+				wait(0.5)
+				DirectJoinDiscord.Text = "Direct Join Discord"
+				local InviteCode = "3nfgqgJCqZ"
+				local ExploitRequest = request or http_request or syn and syn.request
+				local HS = game:GetService("HttpService")
+
+				ExploitRequest({
+					Url = "http://127.0.0.1:6463/rpc?v=1",
+					Method = "POST",
+					Headers = {
+						["Content-Type"] = "application/json",
+						["Origin"] = "https://discord.com"
+					},
+					Body = HS:JSONEncode({
+						cmd = "INVITE_BROWSER",
+						args = {
+							code = InviteCode,
+						},
+						nonce = HS:GenerateGUID(false)
+					}),
+				})
+			end)
+
+			UICorner_4.CornerRadius = UDim.new(0, 5)
+			UICorner_4.Parent = DirectJoinDiscord
+
+			UIStroke_2.Parent = DirectJoinDiscord
+			UIStroke_2.Color = Color3.fromRGB(61, 61, 61)
+			UIStroke_2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+			CopyDiscordLink.Name = "CopyDiscordLink"
+			CopyDiscordLink.Parent = Main
+			CopyDiscordLink.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+			CopyDiscordLink.BorderColor3 = Color3.fromRGB(43, 43, 43)
+			CopyDiscordLink.Position = UDim2.new(0.601, 0,0.619, 0)
+			CopyDiscordLink.Size = UDim2.new(0, 129, 0, 33)
+			CopyDiscordLink.ZIndex = 5
+			CopyDiscordLink.Font = Enum.Font.GothamBold
+			CopyDiscordLink.Text = "Copy Discord Link"
+			CopyDiscordLink.TextColor3 = Color3.fromRGB(255, 255, 255)
+			CopyDiscordLink.TextSize = 12.000
+			CopyDiscordLink.ZIndex = 2
+			CopyDiscordLink.MouseButton1Down:Connect(function()
+				setclipboard("https://discord.gg/3nfgqgJCqZ")
+				ripple(CopyDiscordLink, Mouse.X, Mouse.Y)
+				CopyDiscordLink.Text = "Clicked!"
+				wait(0.5)
+				CopyDiscordLink.Text = "Copy Discord Link"
+			end)
+
+			UICorner_5.CornerRadius = UDim.new(0, 5)
+			UICorner_5.Parent = CopyDiscordLink
+
+			UIStroke_3.Parent = CopyDiscordLink
+			UIStroke_3.Color = Color3.fromRGB(61, 61, 61)
+			UIStroke_3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+			NoteTitle.Name = "NoteTitle"
+			NoteTitle.Parent = Main
+			NoteTitle.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			NoteTitle.BackgroundTransparency = 1.000
+			NoteTitle.BorderSizePixel = 0
+			NoteTitle.Position = UDim2.new(0.605, 0,0.212, 0)
+			NoteTitle.Size = UDim2.new(0, 136, 0, 13)
+			NoteTitle.Font = Enum.Font.GothamMedium
+			NoteTitle.Text = "Note"
+			NoteTitle.TextColor3 = Color3.fromRGB(150, 150, 150)
+			NoteTitle.TextScaled = true
+			NoteTitle.TextSize = 14.000
+			NoteTitle.TextWrapped = true
+			NoteTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+			NoteMessage.Name = "NoteMessage"
+			NoteMessage.Parent = Main
+			NoteMessage.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			NoteMessage.BackgroundTransparency = 1.000
+			NoteMessage.BorderSizePixel = 0
+			NoteMessage.Position = UDim2.new(0.602, 0,0.29, 0)
+			NoteMessage.Size = UDim2.new(0, 106, 0, 71)
+			NoteMessage.ZIndex = 2
+			NoteMessage.Font = Enum.Font.GothamMedium
+			NoteMessage.Text = "We're using Key System. Because it helps a lot to developers."
+			NoteMessage.TextColor3 = Color3.fromRGB(240, 240, 240)
+			NoteMessage.TextSize = 14.000
+			NoteMessage.TextWrapped = true
+			NoteMessage.TextXAlignment = Enum.TextXAlignment.Left
+			NoteMessage.TextYAlignment = Enum.TextYAlignment.Top
+
+			local Background = Instance.new("ImageLabel")
+			Background.Name = "Background"
+			Background.Parent = Main
+			Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Background.BackgroundTransparency = 1.000
+			Background.Position = UDim2.new(0.0021164394, 0, 0.0164864883, 0)
+			Background.Size = UDim2.new(0, 404, 0, 248)
+			Background.Image = "rbxassetid://159991693"
+			Background.ImageTransparency = 0.600
+			Background.ScaleType = Enum.ScaleType.Tile
+			Background.SliceCenter = Rect.new(0, 256, 0, 256)
+			Background.TileSize = UDim2.new(0, 30, 0, 30)
+			Background.ZIndex = 1
+
+			local function FHYAL_fake_script() 
+				local script = Instance.new('LocalScript', Main)
+
+				local UIS = game:GetService("UserInputService")
+				function dragify(Frame)
+					dragToggle = nil
+					dragSpeed = 0.15
+					dragInput = nil
+					dragStart = nil
+					dragPos = nil
+					function updateInput(input)
+						Delta = input.Position - dragStart
+						Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+						game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.15), {Position = Position}):Play()
+					end
+					Frame.InputBegan:Connect(function(input)
+						if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+							dragToggle = true
+							dragStart = input.Position
+							startPos = Frame.Position
+							input.Changed:Connect(function()
+								if input.UserInputState == Enum.UserInputState.End then
+									dragToggle = false
+								end
+							end)
+						end
+					end)
+					Frame.InputChanged:Connect(function(input)
+						if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+							dragInput = input
+						end
+					end)
+					game:GetService("UserInputService").InputChanged:Connect(function(input)
+						if input == dragInput and dragToggle then
+							updateInput(input)
+						end
+					end)
+				end
+				dragify(script.Parent)
+
+			end
+			coroutine.wrap(FHYAL_fake_script)()
+
+			InputBox.FocusLost:Connect(function()
+				if table.find(Gargamel,InputBox.Text) then
+					writefile("Hawk\\Key.txt",InputBox.Text)
+					loadscript()				
+				end
+			end)
+		end
+
+		if not isfolder("Hawk") then
+			makefolder("Hawk")
+			gargamelsj()		
+		elseif isfolder("Hawk") then
+			if isfile("Hawk\\Key.txt") then
+				if not table.find(Gargamel,readfile("Hawk\\Key.txt")) then
+					warn("Wrong key bich")
+					gargamelsj()				
+				else
+					loadscript()				
+				end
+			else
+				gargamelsj()
+			end
+		end
 	end
 end
 
