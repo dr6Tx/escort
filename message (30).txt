@@ -1,6 +1,8 @@
 print("hawk hub legends were here")
-_Protected_By_Hawk = ".gg/3nfgqgJCqZ"
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
+local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Libs/NewLib.lua", true))()
+local Notifications = Hawk:AddNotifications()
+
 assert(hookfunction,"Your exploit does not support that function - Hanki")
 
 getgenv().appendfile = function() return nil end
@@ -5676,8 +5678,7 @@ if _Protected_By_Hawk then
 
 						if string.sub(object.Message, 0, 11) == prefix .. "addadmin " then
 							if game.Players:FindFirstChild(tostring(string.sub(object.Message, 12))) then
-								local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Libs/MobileLib.lua", true))()
-								local Notificatin = Hawk:Notification()
+	
 								addadmin(tostring(string.sub(object.Message, 12)))
 								Notificatin:Notification("Admin Gived Successfully",tostring(string.sub(object.Message, 12)),"Notification",1)
 							end
@@ -6018,8 +6019,7 @@ if _Protected_By_Hawk then
 
 
 
-			local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Libs/MobileLib.lua", true))()
-			local Notificatin = Hawk:Notification()
+	
 			local HttpService = game:GetService("HttpService")
 			local admins = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Tables/Admins.lua", true))()
 
