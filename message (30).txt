@@ -21,6 +21,7 @@ if getgenv().deletefile then
 	deletefilez = getgenv().deletefile
 end
 
+if isfolder("Hawk") then
 if getgenv().listfiles then
 	if listfilez then
 		for i,v in pairs(listfilez("Hawk"))do
@@ -29,6 +30,7 @@ if getgenv().listfiles then
 			end
 		end
 	end
+end
 end
 
 assert(getgenv().hookfunction,"Your exploit does not support that function - Hanki")
