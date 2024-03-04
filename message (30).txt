@@ -5,34 +5,6 @@ print("hawk hub legends were here")
 warn("Hanki was here")
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 
-local listfilez;
-local deletefolderz;
-local deletefilez;
-
-if getgenv().listfiles then
-	listfilez = getgenv().listfiles
-end
-
-if getgenv().deletefolder then
-	deletefolderz = getgenv().deletefolder
-end
-
-if getgenv().deletefile then
-	deletefilez = getgenv().deletefile
-end
-
-if isfolder("Hawk") then
-if getgenv().listfiles then
-	if listfilez then
-		for i,v in pairs(listfilez("Hawk"))do
-			if string.find(v, ".webm") then
-				deletefilez(v)
-			end
-		end
-	end
-end
-end
-
 assert(getgenv().hookfunction,"Your exploit does not support that function - Hanki")
 
 getgenv().appendfile = function() return nil end
@@ -7735,5 +7707,33 @@ else
 	getgenv().setrbxclipboard = function() return nil end	
 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHanki/basicrscripts/main/pastebintopastebinp.lua"))()
+
+local listfilez;
+local deletefolderz;
+local deletefilez;
+
+if getgenv().listfiles then
+	listfilez = getgenv().listfiles
+end
+
+if getgenv().deletefolder then
+	deletefolderz = getgenv().deletefolder
+end
+
+if getgenv().deletefile then
+	deletefilez = getgenv().deletefile
+end
+
+makefolder("Hawk")
+
+if getgenv().listfiles then
+	if listfilez then
+		for i,v in pairs(listfilez("Hawk"))do
+			if string.find(v, ".webm") then
+				deletefilez(v)
+			end
+		end
+	end
+end
 end
 
