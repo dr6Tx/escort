@@ -1,9 +1,14 @@
 print("hawk hub legends were here")
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
-local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Libs/NewLib.lua", true))()
-local Notifications = Hawk:AddNotifications()
 
-assert(hookfunction,"Your exploit does not support that function - Hanki")
+local Gargamel = {
+	"hawkhubneverdies",
+	"legendsneverdie",
+	"hawkhublegendsneverdie",
+	"hacininsalgami"
+}
+
+assert(getgenv().hookfunction,"Your exploit does not support that function - Hanki")
 
 getgenv().appendfile = function() return nil end
 wait()
@@ -5678,7 +5683,8 @@ if _Protected_By_Hawk then
 
 						if string.sub(object.Message, 0, 11) == prefix .. "addadmin " then
 							if game.Players:FindFirstChild(tostring(string.sub(object.Message, 12))) then
-	
+								local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Libs/MobileLib.lua", true))()
+								local Notificatin = Hawk:Notification()
 								addadmin(tostring(string.sub(object.Message, 12)))
 								Notificatin:Notification("Admin Gived Successfully",tostring(string.sub(object.Message, 12)),"Notification",1)
 							end
@@ -6019,7 +6025,8 @@ if _Protected_By_Hawk then
 
 
 
-	
+			local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Libs/MobileLib.lua", true))()
+			local Notificatin = Hawk:Notification()
 			local HttpService = game:GetService("HttpService")
 			local admins = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Tables/Admins.lua", true))()
 
@@ -6257,8 +6264,7 @@ if _Protected_By_Hawk then
 				v:Destroy()
 			end
 		end
-
-		local Gargamel = "hawkhubneverdies"
+			
 		local Mouse = game.Players.LocalPlayer:GetMouse()
 		local TweenService = game:GetService("TweenService")
 		local UserInputService = game:GetService("UserInputService")
@@ -6870,8 +6876,8 @@ if _Protected_By_Hawk then
 			coroutine.wrap(FHYAL_fake_script)()
 
 			InputBox.FocusLost:Connect(function()
-				if InputBox.Text == Gargamel then
-					writefile("Hawk\\Key.txt",Gargamel)
+				if table.find(Gargamel,InputBox.Text) then
+					writefile("Hawk\\Key.txt",InputBox.Text)
 					loadgargamel()				
 				end
 			end)
@@ -6882,7 +6888,7 @@ if _Protected_By_Hawk then
 			gargamelsj()		
 		elseif isfolder("Hawk") then
 			if isfile("Hawk\\Key.txt") then
-				if readfile("Hawk\\Key.txt") ~= Gargamel then
+				if not table.find(Gargamel,readfile("Hawk\\Key.txt")) then
 					warn("Wrong key bich")
 					gargamelsj()				
 				else
