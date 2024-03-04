@@ -1,4 +1,5 @@
 print("hawk hub legends were here")
+_Protected_By_Hawk = ".gg/3nfgqgJCqZ"
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 assert(hookfunction,"Your exploit does not support that function - Hanki")
 
