@@ -1,4 +1,49 @@
-_Hawk = "ohhahtuhthttouttpwuttuaunbotwo"  
+print("hawk hub legends were here")
+_Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
+assert(hookfunction,"Your exploit does not support that function - Hanki")
+
+getgenv().appendfile = function() return nil end
+wait()
+getgenv().printconsole = function() return nil end
+wait()
+getgenv().saveinstance = function() return nil end
+wait()
+getgenv().toclipboard = function() return nil end
+wait()
+getgenv().set_clipboard = function() return nil end
+wait()
+getgenv().Clipboard = function() return nil end
+wait()
+getgenv().messagebox = function() return nil end
+wait()
+getgenv().rconsoleinputasync = function() return nil end
+wait()
+getgenv().consoleinput = function() return nil end
+wait()
+getgenv().rconsoledestroy = function() return nil end
+wait()
+getgenv().consoledestroy = function() return nil end
+wait()
+getgenv().rconsolecreate = function() return nil end
+wait()
+getgenv().consolecreate = function() return nil end
+wait()
+getgenv().consolesettitle = function() return nil end
+wait()
+getgenv().rconsolesettitle = function() return nil end
+wait()
+getgenv().consoleprint = function() return nil end
+wait()
+getgenv().consoleclear = function() return nil end
+wait()
+getgenv().getconstant = function() return nil end
+wait()
+getgenv().dofile = function() return nil end
+wait()
+getgenv().rconsoleinfo = function() return nil end
+wait()
+getgenv().setrbxclipboard = function() return nil end	
+
 
 for i, v in pairs(game.CoreGui:GetChildren()) do
 	if v.Name == "GargamelosSanderos" then
@@ -16,6 +61,7 @@ end
 if game.CoreGui:FindFirstChild("HawkHUB") then
 	game.CoreGui:FindFirstChild("HawkHUB"):Destroy()
 end
+
 if _Protected_By_Hawk then
 	local function loadgargamel()
 		for i, v in pairs(game.CoreGui:GetChildren()) do
@@ -6211,7 +6257,7 @@ if _Protected_By_Hawk then
 			end
 		end
 
-		local Gargamel = "hacininsalgami"
+		local Gargamel = "hawkhubneverdies"
 		local Mouse = game.Players.LocalPlayer:GetMouse()
 		local TweenService = game:GetService("TweenService")
 		local UserInputService = game:GetService("UserInputService")
@@ -6850,65 +6896,63 @@ end
 
 if Wasted then
 	warn("Hanki is allowing you to execute multiple :) <3")
-	load()
 	return;
 else
 	pcall(function()
 		getgenv().Wasted = true
-	end)
 
-	getgenv().clonefunction = function() return nil end
-	local functions = {
-		rconsoleprint,
-		rconsoleerr,
-		rconsoleinfo,
-		rconsoleinput,
-		rconsolename,
-		rconsoleprint,
-		rconsoletitle,
-		rconsolewarn,
-		makefolder,
-		print,
-		setclipboard,
-		rconsoleerr,
-		rconsolewarn,
-		warn,
-		error
-	}
-
-
-	for i, v in next, functions do
-		local old
-		old = hookfunction(v,newcclosure(function(...)
-			local args = {...}
-			for i, v in next, args do
-				if tostring(i):find("raw") or tostring(v):find("raw") then
-					while true do
-					end
-				end
-			end
-			return old(...)
-		end))
-	end
-
-
-
-	if _G.ID then
-		while true do
-		end
-	end
-	setmetatable(
-		_G,
-		{
-			__newindex = function(t, i, v)
-				if tostring(i) == "ID" then
-					while true do
-					end
-				end
-			end
+		getgenv().clonefunction = function() return nil end
+		local functions = {
+			rconsoleprint,
+			rconsoleerr,
+			rconsoleinfo,
+			rconsoleinput,
+			rconsolename,
+			rconsoleprint,
+			rconsoletitle,
+			rconsolewarn,
+			makefolder,
+			print,
+			setclipboard,
+			rconsoleerr,
+			rconsolewarn,
+			warn,
+			error
 		}
-	)
 
+
+		for i, v in next, functions do
+			local old
+			old = hookfunction(v,newcclosure(function(...)
+				local args = {...}
+				for i, v in next, args do
+					if tostring(i):find("raw") or tostring(v):find("raw") then
+						while true do
+						end
+					end
+				end
+				return old(...)
+			end))
+		end
+
+
+
+		if _G.ID then
+			while true do
+			end
+		end
+		setmetatable(
+			_G,
+			{
+				__newindex = function(t, i, v)
+					if tostring(i) == "ID" then
+						while true do
+						end
+					end
+				end
+			}
+		)
+	end)
 	getgenv().print = function() return nil end
 	wait()
 	getgenv().warn = function() return nil end
